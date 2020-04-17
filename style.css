@@ -35,7 +35,7 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .burger{
@@ -44,10 +44,11 @@ nav{
 }
 
 .burger div{
-    width: 25px;
+    width: 20px;
     height: 3px;
     background-color: rgb(226, 226, 226);
     margin: 5px;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 777px){
@@ -68,14 +69,14 @@ nav{
     }
     .nav-links{
         position: absolute;
-        right: 2px;
+        right: 0px;
         height: 92vh;
         top: 8vh;
         background-color: #5d4954;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 45%;
+        width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in ;
     }
@@ -105,20 +106,13 @@ nav{
     }
 }
 
-/*
-.head-image{
-    width: 20%;
-    height: 50%;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    border-color: #fd7a00;
-    border-width: 5px;
-    
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+    opacity: 0;
 }
 
-
-.logo-image-container{
-    
-   
-} */
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
