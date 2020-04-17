@@ -1,0 +1,15 @@
+.header-menu-ul{
+     position: sticky;
+    position: -webkit-sticky;
+     top: 0;
+     width: 100%;
+
+ }
+
+.header-menu-li {
+    border-right: 1px solid #bbb;
+}
+
+.header-menu-li :last-child {
+    border-right: none;
+}
