@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: rgb(190, 192, 192);
+    background-color: rgb(214, 214, 214);
 }
 
 nav{
@@ -27,6 +27,14 @@ nav{
     background-color: #5d4954;
     font-family: 'Poppins', sans-serif;
 
+}
+
+.nav-links :hover{
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+    transition-delay: 0ms;
+    color: rgba(113, 129, 182, 0.411);
 }
 
 .logo{
@@ -144,7 +152,7 @@ nav{
 
 #slider{
     overflow: hidden;
-
+    border-radius: 40px;
 }
 
 #slider figure{
