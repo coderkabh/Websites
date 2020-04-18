@@ -17,6 +17,7 @@
 
 body{
     background-color: rgb(214, 214, 214);
+    overflow-x: hidden;
 }
 
 nav{
