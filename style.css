@@ -74,7 +74,6 @@ nav{
     margin: 5px;
     transition: all 0.3s ease;
     z-index: 1;
-    visibility: hidden;
 }
 
 @media screen and (max-width: 777px){
