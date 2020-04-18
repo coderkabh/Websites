@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+#head{
+    position: relative;
+
+}
+
+#head img{
+    position: absolute;
+    left: 0;
+    clear: both;
+}
+
 body{
     background-color: burlywood;
 }
