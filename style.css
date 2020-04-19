@@ -15,9 +15,15 @@
     clear: both;
 }
 
-body{
+/* .section-1{
     background-color: rgb(214, 214, 214);
+    height: 100vh;
+    clear: both;
 }
+.section-2{
+    background-color: rgb(132, 206, 177);
+    height: 100vh;
+} */
 
 nav{
     display: flex;
@@ -59,6 +65,28 @@ nav{
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.head-bio{
+
+    color: #d16b42be;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: center;
+    text-align: left;
+    font-weight: 600;
+}
+
+.head-bio-name{
+
+    color: #d16b42be;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 36px;
+    margin-top: 40px;
+    text-align: center;
+    text-align: left;
+    font-weight: 600;
 }
 
 .burger{
