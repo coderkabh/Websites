@@ -15,16 +15,24 @@
     clear: both;
 }
 
-/* .section-1{
+.section-1{
     background-color: rgb(214, 214, 214);
     height: 100vh;
     clear: both;
 }
-.section-2{
-    background-color: rgb(132, 206, 177);
-    height: 100vh;
-} */
 
+.section-2{
+    background-color: rgb(178, 233, 185);
+    height: 120vh;
+}
+
+.section-3{
+    background-color: rgb(162, 209, 190);
+    height: 120vh;
+}
+.card-my-design{
+    margin-left: 10px;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -54,6 +62,7 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 50%;
+
 }
 .nav-links li{
     list-style: none;
@@ -76,6 +85,7 @@ nav{
     text-align: center;
     text-align: left;
     font-weight: 600;
+    right: 0;
 }
 
 .head-bio-name{
@@ -108,11 +118,30 @@ nav{
     .nav-links{
         width: 80%;
     }
+    .section-1{
+        background-color: rgb(214, 214, 214);
+        height: 100vh;
+        clear: both;
+    }
+    .section-3{
+        background-color: rgb(162, 209, 190);
+        height: 100vh;
+    }
 }
 
 @media screen and (max-width: 1062px){
     .nav-links{
         width: 60%;
+    }
+
+    .section-1{
+        background-color: rgb(214, 214, 214);
+        height: 100vh;
+        clear: both;
+    }
+    .section-3{
+        background-color: rgb(162, 209, 190);
+        height: 100vh;
     }
 }
 
@@ -120,6 +149,17 @@ nav{
     body{
         overflow-x: hidden;
     }
+
+    .section-1{
+        background-color: rgb(214, 214, 214);
+        height: 200vh;
+        clear: both;
+    }
+    .section-3{
+        background-color: rgb(132, 206, 177);
+        height: 100vh;
+    }
+
     .nav-links{
         position: absolute;
         right: 0px;
