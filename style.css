@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow-x: hidden;
-}
-
-a:link {
-    text-decoration: none;
-}
-
 #head{
     position: relative;
 
@@ -23,66 +15,16 @@ a:link {
     clear: both;
 }
 
-.section-1{
+/* .section-1{
     background-color: rgb(214, 214, 214);
     height: 100vh;
-    /* clear: both; */
+    clear: both;
 }
-
 .section-2{
-    background-color: rgb(178, 233, 185);
+    background-color: rgb(132, 206, 177);
     height: 100vh;
-}
-
-.section-3{
-    background-color: rgb(162, 209, 190);
-    height: 120vh;
-}
-
-/* .work-card{
-    margin: 15px 15px 15px 15px;
 } */
 
-#work-card-img-1{
-    width: 230px;
-    height: 200px;
-    padding: 10px 10px 10px 10px;
-}
-
-#work-card-img-2{
-    width: 250px;
-    height: 250px;
-    padding: 10px 10px 10px 10px;
-}
-
-#work-card-img-3{
-    width: 220px;
-    height: 250px;
-    padding: 10px 10px 10px 10px;
-}
-
-#work-card-img-4{
-    width: 250px;
-    height: 250px;
-    padding: 10px 10px 10px 10px;
-}
-
-
-
-.card-my-text{
-    color: rgb(86, 125, 53);
-    padding-top: 10px;
-    font-size: 26px;
-    text-align: center;
-    font-family: 'Baloo Tammudu 2', cursive;
-    font-weight: 600;
-
-}
-
-.card-my-design{
-    margin-left: 10px;
-    margin: 15px 15px 15px 15px;
-}
 nav{
     display: flex;
     justify-content: space-around;
@@ -112,7 +54,6 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 50%;
-
 }
 .nav-links li{
     list-style: none;
@@ -135,7 +76,6 @@ nav{
     text-align: center;
     text-align: left;
     font-weight: 600;
-    right: 0;
 }
 
 .head-bio-name{
@@ -164,26 +104,9 @@ nav{
     z-index: 1;
 }
 
-/* My Query */
-
-
-/* My Query */
-
 @media screen and (max-width: 777px){
     .nav-links{
         width: 80%;
-    }
-    .section-1{
-        background-color: rgb(214, 214, 214);
-        height: 100vh;
-    }
-    .section-2{
-        background-color: rgb(178, 233, 185);
-        height: 320vh;
-    }
-    .section-3{
-        background-color: rgb(132, 206, 177);
-        height: 100vh;
     }
 }
 
@@ -191,43 +114,12 @@ nav{
     .nav-links{
         width: 60%;
     }
-
-    .section-1{
-        background-color: rgb(214, 214, 214);
-        height: 225vh;
-    }
-    .section-2{
-        background-color: rgb(178, 233, 185);
-        height: 280vh;
-    }
-    .section-3{
-        background-color: rgb(132, 206, 177);
-        height: 100vh;
-    }
 }
-
 
 @media screen and (max-width: 950px){
     body{
         overflow-x: hidden;
     }
-
-    .section-1{
-        background-color: rgb(214, 214, 214);
-        height: 200vh;
-        clear: both;
-    }
-    .section-2{
-        background-color: rgb(178, 233, 185);
-        height: 260vh;
-    }
-    .section-3{
-        background-color: rgb(132, 206, 177);
-        height: 100vh;
-    }
-}
-    
-
     .nav-links{
         position: absolute;
         right: 0px;
@@ -253,6 +145,7 @@ nav{
         z-index: 1;
     }
 
+}
 
 .nav-active{
     transform:translateX(0%) ;
